@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brotherhoodwhyte Clan</title>
+    <style>
+        body {
+            background-color: #1a1a1a;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        
+        .text-container {
+            position: absolute;
+            color: #ffffff;
+            font-size: 24px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        .text1 {
+            top: 10%;
+            left: 5%;
+        }
+
+        .text2 {
+            top: 10%;
+            left: 70%; /* Center the text horizontally */
+            transform: translateX(-50%); /* Center horizontally */
+        }
+
+        .text3 {
+		font-size: 13px;
+            top: 30%;
+            left: 10%;
+        }
+
+        .text4 {
+            top: 70%;
+            left: 60%;
+        }
+
+        .marquee-container {
+            position: absolute;
+            bottom: 10%;
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .marquee {
+            font-size: 20px;
+            color: #ff9900;
+            white-space: nowrap;
+            animation: marquee 10s linear infinite;
+        }
+
+        @keyframes marquee {
+            0% {
+                transform: translateX(100%);
+            }
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+
+
+
+	/* GIF animations */
+        .gif-container {
+            position: absolute;
+            animation-iteration-count: infinite;
+        }
+
+        .gif1 {
+            animation: moveAndBounce1 3s ease-in-out infinite;
+        }
+
+        .gif2 {
+            animation: moveAndBounce2 2.5s ease-in-out infinite;
+        }
+
+        .gif3 {
+            animation: moveAndBounce3 2.7s ease-in-out infinite;
+        }
+
+        .gif4 {
+            animation: moveAndBounce4 2.3s ease-in-out infinite;
+        }
+
+	.gif5 {
+		animation: moveAndBounce5 2.3s ease-in-out infinite;
+	}
+
+	.gif6 {
+		animation: moveAndBounce6 3.7s ease-in-out infinite;
+	}
+
+	.gif7 {
+		animation: moveAndBounce7 3.7s ease-in-out infinite;
+	}
+
+
+
+        @keyframes moveAndBounce1 {
+            0%, 100% {
+                transform: translateX(20%) translateY(20%) scale(1);
+            }
+            25% {
+                transform: translateX(400px) translateY(-400px) scale(1.2);
+            }
+            50% {
+                transform: translateX(900px) translateY(900px) scale(1);
+            }
+            75% {
+                transform: translateX(-200px) translateY(200px) scale(1.2);
+            }
+        }
+
+        @keyframes moveAndBounce2 {
+            0%, 100% {
+                transform: translateX(20%) translateY(200px) scale(0.6);
+            }
+            25% {
+                transform: translateX(-100px) translateY(-300px) scale(0.5);
+            }
+            50% {
+                transform: translateX(50px) translateY(399px) scale(0.3);
+            }
+            75% {
+                transform: translateX(1500px) translateY(100px) scale(0.4);
+            }
+        }
+
+        @keyframes moveAndBounce3 {
+            0%, 100% {
+                transform: translateX(900px) translateY(900px) scale(1);
+            }
+            25% {
+                transform: translateX(905px) translateY(700px) scale(1.4);
+            }
+            50% {
+                transform: translateX(650px) translateY(600px) scale(1);
+            }
+            75% {
+                transform: translateX(920px) translateY(937px) scale(1.4);
+            }
+        }
+
+        @keyframes moveAndBounce4 {
+            0%, 100% {
+                transform: translateX(200px) translateY(800px) scale(1);
+            }
+            25% {
+                transform: translateX(305px) translateY(850px) scale(0.7);
+            }
+            50% {
+                transform: translateX(337px) translateY(800px) scale(1);
+            }
+            75% {
+                transform: translateX(300px) translateY(870px) scale(0.7);
+            }
+        }
+
+        @keyframes moveAndBounce5 {
+            0%, 100% {
+                transform: translateX(150%) translateY(80%) scale(1);
+            }
+            25% {
+                transform: translateX(155%) translateY(85%) scale(0.7);
+            }
+            50% {
+                transform: translateX(187%) translateY(60%) scale(0.5);
+            }
+            75% {
+                transform: translateX(150%) translateY(50%) scale(0.7);
+            }
+        }
+
+
+        @keyframes moveAndBounce6 {
+            0%, 100% {
+                transform: translateX(300%) translateY(90%) scale(1);
+            }
+            25% {
+                transform: translateX(305%) translateY(85%) scale(0.7);
+            }
+            50% {
+                transform: translateX(337%) translateY(80%) scale(1);
+            }
+            75% {
+                transform: translateX(300%) translateY(92%) scale(0.7);
+            }
+        }
+
+
+        @keyframes moveAndBounce7 {
+            0%, 100% {
+                transform: translateX(30%) translateY(80%) scale(0.5);
+            }
+            25% {
+                transform: translateX(35%) translateY(75%) scale(0.7);
+            }
+            50% {
+                transform: translateX(37%) translateY(70%) scale(0.4);
+            }
+            75% {
+                transform: translateX(30%) translateY(72%) scale(0.7);
+            }
+        }
+
+
+
+
+
+
+
+    </style>
+</head>
+<body bgcolor="nigg">
+
+    <div class="gif-container gif1">
+        <img src="media/leenux.gif" alt="GIF 1">
+    </div>
+    <div class="gif-container gif2">
+        <img src="media/smile.gif" alt="GIF 2">
+    </div>
+    <div class="gif-container gif3">
+        <img src="media/demo.jpg" alt="GIF 3">
+    </div>
+    <div class="gif-container gif4">
+        <img src="media/demo2.jpg" alt="GIF 4">
+    </div>
+    <div class="gif-container gif5">
+        <img src="media/turkish-mindset.gif" alt="GIF 5">
+    </div>
+    <div class="gif-container gif6">
+        <img src="media/me.gif" alt="GIF 6">
+    </div>
+    <div class="gif-container gif7">
+        <img src="media/bet.gif" alt="GIF 7">
+    </div>
+
+
+
+
+
+
+
+    <div class="text-container text1">
+        <p>WiN tHe GaMe BuT wItH</p>
+        <h1>hOnOr AnD ReSpEcT</h1>
+        <audio controls autoplay>
+            <source src="media/poing.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+    <div class="text-container text2">
+        <p>Welcome to the</p>
+        <h1>Brotherhoodwhyte Clan</h1>
+    </div>
+    <a href="media/Cs10sas.webp">
+    <a style="display:block" href="https://steamcommunity.com/groups/WHYTEGUY">
+
+    <div class="text-container text3">
+        <p>U PROBABLY G0T R3KT BY SOME MEMBER:</p>
+	<h3>OneTapProSpray:omnibuser5nl(MyNewCsACC)<img src="media/Cs10sas.webp" width="50" height="50"</h3>
+        <h3>Clutch king/CSCoach:Tyberius<img src="media/Cs2.webp" width="50" height="50"</h3>
+        <h3>CQC Expert: Blackbabiesraisedoffwhite****<img src="media/cs3.png" width="50" height="50"</h3>
+	<h3>p90SprayPerfect: Oooh! wow this foods so tasty...<img src="media/cs4.png" width="50" height="50"</h3>
+	<h3>FriendlysmerfDeagleTapper: CLX<img src="media/cs5.png" width="50" height="50"</h3>
+	<h3>GodAWP:Crawdad<img src="media/cs6.png" width="50" height="50"</h3>
+	<h3>CamperKiller:daWEEDhun19<img src="media/cs7.png" width="50" height="50"</h3>
+	<h3>SSGBestAim:Partycrasher<img src="media/cs8.png" width="50" height="50"</h3>
+
+    </div>
+    <div class="text-container text4">
+        <h1>TF2 and CSGO since 2008</h1>
+    </div>
+    <div class="marquee-container">
+        <div class="marquee">
+            <span>AWWWWW YEAAAAAAAAAAAA!</span>
+        </div>
+    </div>
+
+
+</body>
+</html>
+
